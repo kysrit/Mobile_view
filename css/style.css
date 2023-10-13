@@ -1,0 +1,75 @@
+footer{
+    border: solid 5px #CC00AA
+}
+
+body{
+    background-color: rgb(10, 199, 216);
+    color:black;
+}
+nav{
+    border: 2px red;
+}
+img{
+    margin: 20px;
+    padding:10px;
+    border-top-right-radius: 30px;
+    border: 10px black;
+}
+
+
+h1{
+    font-weight: 700;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    font-weight: 700;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+h3{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+li{
+    display: inline-block;
+    height: 50px;
+}
+
+p{
+    line-height: 20px;
+}
+
+a{
+    background-color: yellow;
+    padding: 10px;
+    margin: 20px;
+    text-align: underline;
+    margin-left: 50px;
+    ;
+}
+
+#jump{
+    text-transform: uppercase;
+}
+
+.petsdiv{
+    text-align: center;
+    border: blue;
+    border-width: 2px;
+    border-style:solid;
+    text-align: center;
+}
+
+.thumbnail{
+    border: #CC00AA;
+    border-radius: 5cm;
+}

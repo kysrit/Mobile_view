@@ -48,6 +48,10 @@ h3{
 }
 
 li{
+    list-style: square;
+}
+
+#navigation{
     display: inline-block;
     height: 50px;
 }

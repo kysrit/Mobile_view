@@ -2,9 +2,13 @@ footer{
     border: solid 5px #CC00AA
 }
 
+
 body{
-    background-color: rgb(10, 199, 216);
+    background-color: rgb(76, 113, 116);
     color:black;
+}
+main{
+    background-color: rgb(190, 200, 201);
 }
 nav{
     border: 2px red;
@@ -18,14 +22,18 @@ img{
 
 
 h1{
+    border: 10px solid rgb(76, 113, 116);
+    color: rgb(76, 113, 116);
     font-weight: 700;
     font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     text-decoration: underline;
+    background-color: aliceblue;
 }
 
 h2{
+    text-decoration: underline;
     font-weight: 700;
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
@@ -49,7 +57,7 @@ p{
 }
 
 a{
-    background-color: yellow;
+    background-color:  rgb(190, 200, 201);
     padding: 10px;
     margin: 20px;
     text-align: underline;

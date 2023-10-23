@@ -124,17 +124,20 @@ a{
 
 .likes-grid{
     display:grid;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr);
     grid-template-rows: flex;
     justify-content: center;
     gap: 10px;
+    padding: 20px;
 }
 .likes-grid li{
     border-style: solid;
     background-color: aliceblue;
     margin-bottom: 10px;
 }
-
+.thumbnail{
+    max-width: 95%;
+}
 /*
 RECIPE
 */
@@ -151,6 +154,7 @@ RECIPE
     grid-template-columns: minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr);
     grid-template-rows: auto;
     justify-content: center;
+    font-size: 12px;
 }
 .info-grid1{
     grid-column-start: 1;
@@ -335,4 +339,8 @@ padding: 5px;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 4;
+}
+
+.changewidth{
+    max-width: 95%;
 }

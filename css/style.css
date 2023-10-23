@@ -12,7 +12,8 @@ main{
 }
 nav{
     border: 2px red;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 img{
     margin: 20px;
@@ -35,6 +36,7 @@ h2{
     text-align: center;
     text-decoration: underline;
     background-color: aliceblue;
+    
 }
 
 h3{

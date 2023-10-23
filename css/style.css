@@ -340,8 +340,3 @@ padding: 5px;
     grid-column-end: 4;
     grid-row-start: 4;
 }
-
-.changewidth{
-    max-width: 95%;
-    text-align: center;
-}

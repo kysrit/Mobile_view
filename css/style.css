@@ -6,6 +6,8 @@ footer{
 body{
     background-color: rgb(76, 113, 116);
     color:black;
+    overflow: hidden;
+    position: fixed;
 }
 main{
     background-color: rgb(190, 200, 201);
